@@ -12,6 +12,7 @@
   grid-template-columns: 1fr 2fr; /* Divide a largura em duas colunas de 50%*/
   gap: 2rem;
   align-items: center;
+  max-width: 500px;
 }
 input {
   cursor: pointer;
@@ -26,7 +27,7 @@ input {
   border-radius: 10px;
   border-radius: 5rem;
   padding: 0.5rem 2rem;
-  /* max-width: 46%; */
+  max-width: 500px;
 }
 button {
   cursor: pointer;
@@ -40,6 +41,7 @@ button {
   font-weight: bold;
   transition: 0.3s ease;
   font-family: inherit;
+  max-width: 500px;
 }
 button:hover {
   box-shadow: 7px 7px 1px 0 rgba(31, 135, 83, 0.37);

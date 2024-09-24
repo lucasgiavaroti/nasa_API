@@ -1,6 +1,5 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
-import HelloWorld from "./components/HelloWorld.vue";
 import Landing from "./components/Landing.vue";
 import Search from "./components/Search.vue";
 </script>
@@ -18,13 +17,14 @@ import Search from "./components/Search.vue";
       </div>
     </div>
   </header>
-  <!-- <RouterView /> -->
+  <RouterView />
 </template>
 
 <style scoped>
 header {
   line-height: 1.5;
   max-height: 100vh;
+  margin: auto;
 }
 nav {
   width: 100%;
@@ -56,10 +56,6 @@ nav a:first-of-type {
     display: flex;
     place-items: center;
     padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
   }
 
   header .wrapper {

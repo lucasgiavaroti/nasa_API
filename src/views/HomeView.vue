@@ -1,9 +1,11 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import TheImage from "../components/TheImage.vue";
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <TheImage />
   </main>
 </template>
+<style scoped>
+</style>
