@@ -10,7 +10,7 @@ import Search from "./components/Search.vue";
       <Landing></Landing>
       <nav>
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/about">About Me</RouterLink>
       </nav>
       <div id="search">
         <Search></Search>
@@ -46,11 +46,11 @@ nav a {
 nav a:first-of-type {
   border: 0;
 }
-#search{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
-  }
+#search {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
 @media (min-width: 1024px) {
   header {
     display: flex;
@@ -70,7 +70,7 @@ nav a:first-of-type {
     padding: 1rem 0;
     margin-top: 1rem;
   }
-  #search{
+  #search {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;

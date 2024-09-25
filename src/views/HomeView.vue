@@ -7,5 +7,4 @@ import TheImage from "../components/TheImage.vue";
     <TheImage />
   </main>
 </template>
-<style scoped>
-</style>
+<style scoped></style>

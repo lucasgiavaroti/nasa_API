@@ -54,10 +54,10 @@ button:hover {
     gap: 2rem;
     align-items: center;
   }
-  input{
+  input {
     max-width: 100%;
   }
-  button{
+  button {
     grid-column: span 2;
   }
 }
