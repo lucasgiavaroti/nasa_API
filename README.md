@@ -1,29 +1,5 @@
-# nasa
+#Nasa API
 
-This template should help get you started developing with Vue 3 in Vite.
+Este projeto foi feito utilizado a API da NASA: Astronomy Picture of the Day (APOD)
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+- Utilizando minha API Key, fiz as requisições através de JavaScript, e consumi os dados com o Vue JS, utilizando das propriedades reativas do framework!
